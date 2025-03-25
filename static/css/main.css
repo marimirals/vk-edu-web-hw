@@ -1,0 +1,148 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    background-color: #151515;
+    font-family: 'Arial', sans-serif;
+    color: #fff;
+}
+
+h1 {
+    color: #fff;
+    font-weight: 600;
+}
+
+h5 {
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+}
+
+p {
+    font-size: 14px;
+    color: #fff;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+img {
+    width: 80px;
+    height: 80px;
+}
+
+.btn {
+    width: 70px;
+    background-color: #244582;
+    height: 30px;
+    border-radius: 40px;
+    border: none;
+    color: #fff;
+}
+
+.btn:hover {
+    background-color: #001242;
+}
+
+.navbar {
+    font-size: 16px;
+    background-color: #1E1E1E;
+    color: white;
+    padding: 15px 0;
+    a {
+        color: #fff;
+    }
+    img {
+        width: 40px;
+        height: 40px;
+    }
+}
+
+.navbar_logo {
+    font-size: 24px;
+    font-weight: 300;
+    color: #ffffff;
+}
+
+.navbar form {
+    flex-grow: 1;
+    max-width: 400px;
+    input::placeholder {
+        color: #fff;
+        opacity: 0.5; 
+    }
+}
+
+.navbar form .form-control {
+    border-radius: 25px;
+    background-color: #151515;
+    border: none;
+}
+
+.card {
+    color: #fff;
+    background-color: #1E1E1E;
+    height: 170px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 3px 3px rgba(0, 0, 0, 0.4);
+    .card-text {
+        opacity: 0.5;
+    }
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.idk__what {
+    width: 40px;
+    margin-top: 20px;
+    margin-left: 20px;
+    border-radius: 5px;
+    border: solid 1px ;
+}
+
+.page-link{
+    gap: 10px;
+    border-radius: 3px;
+    border: none;
+    background-color: #1e1e1e;
+    color: #fff;
+}
+
+
+
+
+
+aside a:hover {
+    text-decoration: underline;
+}
+
+aside h3 {
+    font-family: Arial, sans-serif;
+}
+
+aside div span {
+    font-size: 1rem;
+    margin-right: 5px;
+}
+
+aside div a {
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+aside a:hover {
+    text-decoration: underline;
+}
+
+aside h3 {
+    font-family: Arial, sans-serif;
+}
+
+.badge {
+    font-size: 1rem;
+    padding: 0.5rem 0.75rem;
+}
